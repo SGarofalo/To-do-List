@@ -1,0 +1,80 @@
+@font-face {
+    font-family: bitcheese;
+    src: url(Bitcheese.ttf);
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1644329843491-99edfc83de04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80);
+    background-size: cover;
+    font-family:'Franklin Gothic Medium', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 4%;
+    color: #5b4f4c;
+    font-size: 50px;
+}
+
+.input {
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 18px;
+    outline-color: #BA4B2F;
+}
+
+.item {
+    margin-bottom: 10px;
+}
+
+.boton-agregar {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #BA4B2F;
+    color: white;
+}
+
+.boton-agregar:hover {
+    opacity: 0.9;
+    font-size: large;
+    transition: .1s ease;
+}
+
+.item-input {
+    height: 50px;
+    width: 260px;
+    padding: 0px 20px;
+    border: solid #BA4B2F 1px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #BA4B2F;
+    background: none;
+    outline: none;
+}
+
+.boton-editar {
+    margin: 0px 5px;
+    border: none;
+    background: none;
+    color: #FDCFD9;
+    font-size: 1.4rem;
+}
+
+.boton-remover {
+    height: 50px;
+    width: 50px;
+    margin: 0px 5px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #FDCFD9;
+    background-color: #BA4B2F;
+}
